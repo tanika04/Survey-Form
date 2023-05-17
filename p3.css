@@ -1,0 +1,145 @@
+
+body {
+    /* background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg") */
+    background-image: url("https://institute.careerguide.com/wp-content/uploads/2020/03/Chitkara-University-Patiala-2PB-Campus.png");
+    background-color: violet;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white; 
+}
+form {
+    background-color:rgb(0,0,0,0.809);
+    padding-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 25px;
+    padding-bottom: 60px;
+    margin-bottom: 70px;
+}
+.heading {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    color: black;
+}
+.adr{
+    color: #0b0b0b;
+}
+#subheading {
+    font-size: 10px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+
+   
+}
+.branch:hover{
+    color:blue ;
+
+}
+.borderexample {
+    border-width :2px;
+    width: 5rem;
+    border-style:solid;
+    border-color:#faf4f2;
+    padding-inline: 1rem;
+    margin-inline: 1rem;
+}
+a:link{
+    text-decoration: underline;
+    color: chartreuse;
+}
+.b1{
+    background-color: darkgrey;
+    border-radius:3px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    margin-bottom:0%;
+    height:58px;
+}
+.b2{
+        background-color: darkgrey;
+        border-radius:3px;
+        padding-left:10px;
+        padding-top:10px;
+        padding-bottom: 0px;
+        margin-bottom:0%;
+        height:58px
+}
+.b3{
+    background-color: darkgrey;
+    border-radius:3px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    margin-bottom:0%;
+    height:58px
+}
+/*
+.b4{
+    background-color: darkgrey;
+    border-radius:3px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    margin-bottom:0%;
+    height:58px
+}
+.b5{
+    background-color: darkgrey;
+    border-radius:3px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    margin-bottom:0%;
+    height:58px
+}
+.b6{
+    background-color: darkgrey;
+    border-radius:3px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    margin-bottom:0%;
+    height:58px
+}
+.b7{
+    background-color: darkgrey;
+    border-radius:3px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    margin-bottom:0%;
+    height:58px
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+    margin:5px;
+    padding:5px;
+    margin-left: auto;
+}select{
+    padding:5px;
+}
