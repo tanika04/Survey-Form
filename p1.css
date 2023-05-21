@@ -1,71 +1,78 @@
-*{
-    margin:0;
-    padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-body{
+
+body {
     background-color: antiquewhite;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto;
+    margin: auto;
     margin-bottom: 16vh;
-
+    background-position: absolute;
 }
+
 form {
-    background:#000;
+    background-attachment: fixed;
+    background: #000;
     width: 400px;
-    height: 540px;
+    height: 520px;
     position: relative;
     border-radius: 10px;
-    padding:80px 50px;
-    padding-top: 50px;
-
+    padding: 80px 50px;
+    padding-top: 30px;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 8vh;
+    margin-bottom: auto;
     text-align: center;
     box-shadow: 0 0 50px brown;
 }
-h1{
+
+h1 {
     font-size: 25px;
     color: white;
     text-align: center;
 }
-img{
-    width:150px;
-    height: 140px;
-    margin-top:30px;
-    border-radius: 80px;
 
+img {
+    width: 150px;
+    height: 140px;
+    margin-top: 30px;
+    border-radius: 80px;
 }
-.input-group{
+
+.input-group {
     position: relative;
     margin: 25px 0;
     border-bottom: 2px solid #fff;
     color: white;
     text-align: left;
-    
+    display: inline-block;
 }
-input-group label{
+
+input-group label {
     color: white;
-    position:absolute;
+    position: absolute;
     text-align: left;
-    font-size:16px;
-    /* transform: translateY(-50%); */
+    font-size: 16px;
 }
-.input-group input{
-    width:320px;
-    height:40px;
+
+.input-group input {
+    width: 320px;
+    height: 40px;
     font-size: 16px;
     color: #fff;
-    padding: 0 5px;
-    background:transparent;
+    padding: 0 0;
+    background: transparent;
     border: none;
     outline: none;
 }
-button{
+
+button {
     position: relative;
     width: 100px;
     height: 40px;
@@ -73,13 +80,12 @@ button{
     box-shadow: 0 0 10px;
     font-size: 16px;
     color: #000;
-    cursor:pointer;
+    cursor: pointer;
     border-radius: 30px;
     border: none;
     outline: none;
-
 }
-button:hover{
-    color: brown;
-    
+
+button:hover {
+    color: antiquewhite;
 }
